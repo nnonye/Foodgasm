@@ -1,0 +1,151 @@
+body {
+    background: linear-gradient(40deg, rgb(77, 77, 77), rgb(58, 59, 59));
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(68, 68, 68);
+}
+
+.page-logo a {
+    /* color: rgb(183, 230, 235); */
+    color: white;
+    font-family: 'Oleo Script', sans-serif;
+}
+
+header {
+    position: static;
+}
+
+header a {
+    color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+
+    color: rgb(58, 58, 58);
+    background-color: rgb(183, 230, 235);
+}
+
+.argentina {
+    background: linear-gradient(135deg, rgb(243, 191, 124), rgb(59, 58, 56));
+}
+
+.argentinan {
+    padding: 0 10%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    margin: 0;
+    /* margin: 0 auto; */
+    /* box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); */
+}
+
+.argentinan h2 {
+    margin: 0;
+    /* background: linear-gradient(to right, #36818f 0%, #c7ecf3 100%); */
+    /* -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; */
+}
+
+.argentinan img {
+    width: 100px;
+    height: 50px;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.arg-flag {
+    margin-right: 3%;
+    padding: 10px 0 ;
+
+}
+
+.indian {
+    background: linear-gradient(90deg, rgb(250, 248, 248), rgb(247, 229, 172));
+}
+
+.india {
+    color: rgb(243, 191, 124);
+}
+
+.turkey {
+    background: linear-gradient(135deg, rgb(194, 57, 57), rgb(247, 229, 172));
+}
+
+.australian {
+    background: linear-gradient(140deg, rgb(248, 246, 246), rgb(83, 139, 202));
+}
+
+.canada {
+    background: linear-gradient(140deg, rgb(248, 246, 246), rgb(47, 80, 4));
+}
+
+.italian {
+    background: linear-gradient(140deg, rgb(41, 19, 4), rgb(241, 245, 236));
+}
+
+main ul {
+    /* width: 1200px; */
+    width: 80%;
+    margin: 0 auto 2rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8rem 0.8rem;
+}
+
+li:nth-of-type(3) {
+    grid-column: 1/ span 2;
+}
+
+main li {
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.item-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-content h2 {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(56, 144, 185);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+
+.actions a:hover {
+    cursor: pointer;
+    background-color: rgb(198, 238, 248);
+}
+
+main li img {
+    width: 50%;
+    /* height: 280px; */
+    object-fit: cover;
+}
+
+@media screen and (max-width: 750px) {
+    main ul {
+        grid-template-columns: 1fr;
+    }
+
+    li:nth-of-type(3) {
+        grid-column: 1;
+    }
+ }

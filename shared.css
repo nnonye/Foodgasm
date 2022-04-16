@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 15px 60px; */
+    padding: 1% 3%;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+/* .page-logo {
+    display: flex;
+} */
+/* .x{
+    border: 1px solid red
+} */
+.page-logo a {
+    padding: 5%;
+    font-family: 'Oleo Script', sans-serif;
+    color: rgb(10, 5, 4);
+    font-size: 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgb(53, 1, 1);
+}  
+
+header ul {
+    display: flex;
+    /* font-weight: bold; */
+}
+
+header li {
+    margin-left: 0.3rem;
+    /* font-size: bold; */
+    text-transform: uppercase;
+}
+ 
+header a {
+    color: rgb(9, 90, 6);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-shadow: 1px 1px 2px rgba(252, 251, 251, 0.2);
+    border-radius: 6px;
+}
+
+header nav a:hover {
+
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
+}
+
+footer {
+    background: linear-gradient(90deg, rgb(24, 24, 24), rgb(25, 29, 29));
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+}
+
+footer h2 {
+    color: white;
+    text-align: center;
+}
+
+ .icons {
+     font-size: 2rem;
+     margin: 0 2%;
+     color: rgb(233, 229, 227);
+ }
+
+ @media screen and (max-width: 700px) {
+    .page-logo a {
+        font-size: 2rem;
+    }
+    header a {
+        font-size: 1.2rem;
+    }
+ }
+
+ @media screen and (max-width: 500px) {
+    .page-logo a {
+        font-size: 1.5rem;
+    }
+    header a {
+        font-size: 1rem;
+    }
+ }
+     

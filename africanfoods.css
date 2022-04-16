@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(40deg, rgb(77, 77, 77), rgb(58, 59, 59));
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(68, 68, 68);
+}
+
+.page-logo a {
+    /* color: rgb(183, 230, 235); */
+    color: white;
+    font-family: 'Oleo Script', sans-serif;
+}
+
+header {
+    position: static;
+}
+
+header a {
+    color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+
+    color: rgb(58, 58, 58);
+    background-color: rgb(183, 230, 235);
+}
+
+main ul {
+    width: 90%;
+    margin: 0 auto 4% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+
+li:nth-of-type(3) {
+    grid-column: 1/ span 2;
+}
+
+main li {
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.item-content {
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-content h2 {
+    width: 100%;
+    /* margin: 0; */
+    font-size: 1.5em;
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(56, 144, 185);
+    padding: 6px;
+    border-radius: 5px;
+}
+
+
+.actions a:hover {
+    cursor: pointer;
+    background-color: rgb(198, 238, 248);
+}
+
+main li {
+    display: flex;
+
+}
+
+main li img {
+    width: 50%;
+    /* height: 280px; */
+    object-fit: cover;
+}
+
+@media screen and (max-width: 750px) {
+    main ul {
+        grid-template-columns: 1fr;
+    }
+
+    li:nth-of-type(3) {
+        grid-column: 1;
+    }
+ }
