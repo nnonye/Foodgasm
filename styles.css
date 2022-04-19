@@ -109,21 +109,22 @@
     /* border-radius: 2%;
     background-color: rgba(211, 209, 209, 0.8);
     box-shadow: 5% 5% 20% rgba(0, 0, 0, 0.4); */
-    height: 60vh;
-    width: 100%;
+    /* height: 60vh; */
+    width: 80%;
     padding: 5% 0;
     position: relative;
-    /* justify-content: center;
-    width: 100%;
+    justify-content: space-evenly;
+    /* width: 100%;
     margin: 0 auto;
     margin-bottom: 40px; */
 } 
 
 .card {
     /* height: 80vh; */
-    width: 80vw;
+    width: 26%;
+    padding: 0 2%;
     border: 1px solid brown;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     border-radius: 2%;
     background-color: rgba(211, 209, 209, 0.3);
     box-shadow: 5% 5% 20% rgba(0, 0, 0, 0.4);
@@ -141,8 +142,10 @@
     }
     
     #practices h2 {
-       font-size: 2rem;
+       font-size: 3rem;
+       text-transform: uppercase;
        text-align: center;
+       color: white;
     }
 
 
@@ -178,6 +181,7 @@
     background-size: cover;
     justify-content: center;
     align-content: center;
+    padding: 0 2% 2%
 }
 
 #forms h2 {
@@ -191,6 +195,26 @@
 #forms h2 strong {
  color: white;
 }
+
+#forms a {
+    text-decoration: none;
+    color: white;
+}
+
+label{
+    display: block;
+}
+
+.submit-btn {
+    padding: 1% 2%;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: rgb(141, 103, 103);
+    /* box-shadow: 2px 4px 8px rgb(68, 67, 67); */
+}
+
 
 @media screen and (max-width: 550px) {
     .hero-content h1 {
@@ -222,12 +246,13 @@
         padding-bottom: 20%;
     }
     .card {
-        width: 25rem;
+        width: 80%;
         margin: 5% auto;
         
     }
     #practices h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
+        color: black;
     }
 }
 
