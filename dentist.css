@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --primary-color: #0a1280;
+}
+body {
+    font-family: 'Poppins';
+    background: rgb(237, 241, 236);
+    margin: 0;
+    text-align: center;
+    
+}
+
+.navbar {
+ background: white;
+ padding: 1em;
+}
+
+.logo {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+span {
+    color: black;
+}
+nav {
+    display: none;
+}
+.container {
+    display: flex;
+    place-content: space-between;
+}
+.mobile-menu {
+    cursor: pointer;
+}
+
+a {
+    color:rgb(92, 81, 81);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 2em 2em;
+}
+.hero .coontainer {
+    text-align: left;
+     display: flex;
+     justify-content: space-between;
+}
+.left-col {
+    margin: 3em 3em 0 5em;
+}
+h1 {
+    font-size: 3em;
+    width: 90%;
+}
+.subhead {
+    text-transform:upppercase;
+    font-weight: bold;
+    color: gray;
+    letter-spacing: 3em;
+}
+h1 {
+    font-size: 2.5em;
+    line-height: 1.3em;
+    margin-top: .2em;
+}
+.primary-cta {
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: .6em;
+    font-size: 1em;
+    border-radius: 0;
+    font-weight: lighter;
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: 5em;
+}
+.watch-video-cta {
+    background: rgb(219, 210, 210);
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+    padding: .6em;
+    font-size: 1em;
+    border-radius: 0;
+    font-weight: lighter;
+    display: inline-block;
+    margin-top: 1em;
+}
+.hero-img {
+    width: 50%;
+    height: 40%;
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-bottom: 2em;
+}
+section.who-we-are-section {
+    background: white;
+    position: center;
+    font-size: 1em;
+    border-radius: 0;
+    font-weight: lighter;
+    display: inline-block;
+    margin-top: 1em;
+    text-align: center;
+}
+ 
+
+section.features-section {
+    background:white;
+    padding: 0;
+    margin-bottom: 6em;
+    
+    
+}
+.oboy {
+    width: 40%;
+    height: 40%;
+    margin-top: 3em;
+    margin-left: 6em;
+    padding: 5em;
+}
+.features-list {
+       
+        content: '';
+        position: left;
+        width: 0px;
+        height: 0px;
+         padding: 2em;
+         margin-bottom: 2em;
+         background-size: contain;
+         word-spacing: 0;
+        text-decoration: none;
+        display: inline-block;
+        list-style-type: square;
+}
+.testimonials-section {
+    background: gray;
+    color: black;
+    margin-top: 6em;
+
+}
+li {
+    color: black;
+    text-align: center;
+  /* padding: 2em 1em;
+    width: 80%;
+    margin: 0 auto 5em auto;
+    border-radius: 1em;
+    background-color: red; */
+}
+img {
+    width: 3em;
+    height: 3em;
+    margin-top: -4.5em;
+}
+.contact-section {
+    background: white;
+    text-align: left;
+}
+h2 {
+    font-size: 1.5em;
+}
+label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+input, textarea {
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+input[type="Book an appointment"] {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    margin-bottom: 5em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    cursor: pointer;
+}
+ .subscribe {
+     background: gray;
+ }
+ h1 {
+     font-size: 2em;
+
+ }
+ input, textarea {
+    width: 60%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+input[type="subscribe"] {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    margin-bottom: 5em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    cursor: pointer;
+}
+
+.navbar .container {
+    display: grid;
+    grid-template-columns: 180px auto;
+    
+}
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+   
+}
+ul {
+    display: flex;
+}
+a {
+    color: black;
+    font-size: 1em;
+    padding: 0;
+    text-decoration: none;
+    margin: 0%;
+}
+ul.primary-nav {
+    margin: 0;
+}
+li.current a {
+    font-weight: bold;
+}
+ ul.features-list {
+     display: block;
+     margin-left: 5em;
+ }
+ li {
+     font-size: 1.4em;
+ }
+  .features-list {
+      position: relative;
+      font-size: small;
+      margin: 1em;
+      padding: 2em;
+  }
+  .features-list img {
+      position: absolute;
+      left: 0;
+      width: 250px;
+      height: 100px;
+      margin-top: 2em;
+      margin-left: 2em;
+      bottom: -2em;
+  }
+  .testimonials-section ul {
+      display: flex;
+
+  }
+  li {
+      margin: 0 1em;
+  }
+
+.grid{
+    
+}
