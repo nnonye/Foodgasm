@@ -59,7 +59,7 @@
 
 #highlights {
     padding: 24px;
-    background: linear-gradient(45deg, rgb(227, 255, 253), rgb(202, 243, 240));
+    background: linear-gradient(145deg, rgb(243, 252, 160), rgb(240, 225, 22));
 }
 
 #dishes {
@@ -98,6 +98,100 @@
     /* margin-left: 60px; */
 }
 
+/* #mycard {
+  font-size: 1.5rem;
+ 
+} */
+
+#mycard {
+    display: flex;
+    margin: 2% auto;
+    /* border-radius: 2%;
+    background-color: rgba(211, 209, 209, 0.8);
+    box-shadow: 5% 5% 20% rgba(0, 0, 0, 0.4); */
+    height: 60vh;
+    width: 100%;
+    padding: 5% 0;
+    position: relative;
+    /* justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 40px; */
+} 
+
+.card {
+    /* height: 80vh; */
+    width: 80vw;
+    border: 1px solid brown;
+    justify-content: space-around;
+    border-radius: 2%;
+    background-color: rgba(211, 209, 209, 0.3);
+    box-shadow: 5% 5% 20% rgba(0, 0, 0, 0.4);
+ }
+
+ .card p {
+     color: white;
+ }
+ 
+ #practices {
+     background-image: url(/images/foods/Death-By-Chocolate-Waffles-scaled.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 40%;
+    }
+    
+    #practices h2 {
+       font-size: 2rem;
+       text-align: center;
+    }
+
+
+    input, textarea {
+    width: 80%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.for {
+    color: white;
+    font-size: 1.5rem;
+}
+/* input[type="subscribe"] {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    margin-bottom: 5em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    cursor: pointer;
+} */
+
+#forms {
+    background: url(/images/foods/v-onebowl-chocbundtcake0001.webp);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+}
+
+#forms h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 5%;
+    color: white;
+    text-transform: uppercase;
+}
+ 
+#forms h2 strong {
+ color: white;
+}
+
 @media screen and (max-width: 550px) {
     .hero-content h1 {
         font-size: 2.5rem;
@@ -120,3 +214,26 @@
         margin: 0 auto;
     }
  }
+
+ @media  screen and (max-width: 500px) {
+    #mycard {
+        display: block;
+        /* height: 30vh; */
+        padding-bottom: 20%;
+    }
+    .card {
+        width: 5rem;
+        margin: 0 auto;
+        
+    }
+    #practices h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width :500px) {
+    #forms h2 strong {
+        color: rgb(48, 29, 29);
+    }
+
+}
